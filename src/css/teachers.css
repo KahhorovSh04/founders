@@ -1,0 +1,57 @@
+#teachers {
+  padding: 3rem 15% 4rem 15%;
+}
+
+#teachers .topic::before {
+  background: #a259ff;
+}
+
+#teachers .container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 3rem;
+}
+
+#teachers .box {
+  width: 28%;
+  position: relative;
+  border: 3px solid #000;
+}
+
+#teachers .box img {
+  width: 100%;
+}
+
+#teachers .body {
+  z-index: -1;
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  color: #fff;
+  padding: 0 2rem 1.4rem 2rem;
+  transition: all 0.3s ease-in-out;
+}
+
+#teachers .box:hover .body {
+  z-index: 1;
+  opacity: 1;
+}
+
+#teachers .body h1 {
+  font-size: 2rem;
+  margin-bottom: 0.6rem;
+}
+
+#teachers .body p {
+  font-size: 1.4rem;
+  text-align: center;
+}
