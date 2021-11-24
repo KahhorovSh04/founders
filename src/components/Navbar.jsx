@@ -16,7 +16,7 @@ const Navbar = () => {
       <div id='stick'></div>
       <div className='links'>
         <a href='#courses'>Courses</a>
-        <a href='/'>Contact us</a>
+        <a href='#contacts'>Contact us</a>
         <a href='tel:+998712055333'>
           <i className='fas fa-phone'></i>
           +998 71 205 53 33
