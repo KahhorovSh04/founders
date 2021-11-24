@@ -15,7 +15,7 @@ const Navbar = () => {
       </div>
       <div id='stick'></div>
       <div className='links'>
-        <a href='/'>Courses</a>
+        <a href='#courses'>Courses</a>
         <a href='/'>Contact us</a>
         <a href='tel:+998712055333'>
           <i className='fas fa-phone'></i>
