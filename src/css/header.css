@@ -1,0 +1,24 @@
+header {
+  display: flex;
+  background: #000;
+  color: #fff;
+  flex-direction: row;
+  align-items: center;
+  padding: 2rem 15% 4rem 15%;
+  justify-content: space-between;
+}
+
+header img {
+  width: 30rem;
+}
+
+header h1 {
+  font-size: 3.4rem;
+}
+
+header h2 {
+  font-size: 2.6rem;
+  font-weight: 500;
+  max-width: 70%;
+  margin-top: 0.8rem;
+}
