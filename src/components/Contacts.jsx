@@ -13,6 +13,7 @@ const Contacts = () => {
           style={{ border: '0' }}
           allowFullScreen=''
           loading='lazy'
+          title='Google Maps'
         ></iframe>
         <div className='links'>
           <a href='/'>

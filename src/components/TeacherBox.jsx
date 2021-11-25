@@ -11,7 +11,7 @@ const TeacherBox = ({ teacher }) => {
     >
       <img
         src={require(`../images/${teacher.banner}`).default}
-        alt="Teacher's image"
+        alt='One of our teachers'
       />
       <div
         className='body'
