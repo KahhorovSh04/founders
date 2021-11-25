@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/static/css/main.1001e900.chunk.css",
+    "main.js": "/static/js/main.55bd607f.chunk.js",
+    "main.js.map": "/static/js/main.55bd607f.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.20ad5eae.js",
+    "runtime-main.js.map": "/static/js/runtime-main.20ad5eae.js.map",
+    "static/js/2.05a72a4b.chunk.js": "/static/js/2.05a72a4b.chunk.js",
+    "static/js/2.05a72a4b.chunk.js.map": "/static/js/2.05a72a4b.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.1001e900.chunk.css.map": "/static/css/main.1001e900.chunk.css.map",
+    "static/js/2.05a72a4b.chunk.js.LICENSE.txt": "/static/js/2.05a72a4b.chunk.js.LICENSE.txt",
+    "static/media/7+.png": "/static/media/7+.756b7011.png",
+    "static/media/general-english.png": "/static/media/general-english.7cef81ae.png",
+    "static/media/header.png": "/static/media/header.c764cdcf.png",
+    "static/media/speed-up.png": "/static/media/speed-up.ce11b611.png",
+    "static/media/teacher1.png": "/static/media/teacher1.8305c38d.png",
+    "static/media/teacher2.png": "/static/media/teacher2.9f4e676d.png",
+    "static/media/teacher3.png": "/static/media/teacher3.2e764f6c.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.20ad5eae.js",
+    "static/js/2.05a72a4b.chunk.js",
+    "static/css/main.1001e900.chunk.css",
+    "static/js/main.55bd607f.chunk.js"
+  ]
+}
