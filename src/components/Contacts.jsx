@@ -20,7 +20,7 @@ const Contacts = () => {
             Oliy Majlis qarshisida
           </a>
           <div className='tels'>
-            <i class='fa-solid fa-phone'></i>
+            <i className='fa-solid fa-phone'></i>
             <div>
               <a href='tel:+998712055333'>+998 71 205 53 33</a>
               <a href='tel:+998712050333'>+998 71 205 03 33</a>

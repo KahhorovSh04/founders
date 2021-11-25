@@ -53,7 +53,7 @@ const courses = [
   },
 ]
 
-const Courses = () => {
+const Courses = ({ setCurrentCourse }) => {
   const handleClick = (e) => {
     const contain = document.getElementsByClassName('container')[1]
     const btn = e.target
@@ -80,12 +80,26 @@ const Courses = () => {
       <h1 className='topic'>Our Courses</h1>
       <div className='container'>
         {courses.map(
-          (course, ind) => ind <= 2 && <CourseCard course={course} key={ind} />
+          (course, ind) =>
+            ind <= 2 && (
+              <CourseCard
+                setCurrentCourse={setCurrentCourse}
+                course={course}
+                key={ind}
+              />
+            )
         )}
       </div>
       <div className='container disable'>
         {courses.map(
-          (course, ind) => ind > 2 && <CourseCard course={course} key={ind} />
+          (course, ind) =>
+            ind > 2 && (
+              <CourseCard
+                setCurrentCourse={setCurrentCourse}
+                course={course}
+                key={ind}
+              />
+            )
         )}
       </div>
       <button className='switch-all' onClick={(e) => handleClick(e)}>

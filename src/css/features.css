@@ -1,5 +1,5 @@
 #features {
-  padding: 4rem 15%;
+  padding: 5.2rem 15%;
   background: #000;
   color: #fff;
 }
@@ -14,6 +14,7 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: flex-start;
+  margin-top: 1.8rem;
 }
 
 #features .box {
