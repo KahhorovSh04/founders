@@ -24,7 +24,7 @@ body {
   font-family: 'Josefin Sans', 'Roboto', sans-serif;
 }
 
-h1.topic {
+h2.topic {
   display: inline;
   font-size: 3.2rem;
   font-weight: 500;
@@ -32,7 +32,7 @@ h1.topic {
   padding-bottom: 0.2rem;
 }
 
-h1.topic::before {
+h2.topic::before {
   content: '';
   width: 90%;
   border-radius: 2px;

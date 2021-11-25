@@ -29,7 +29,7 @@ const teachers = [
 const Teachers = () => {
   return (
     <article id='teachers'>
-      <h1 className='topic'>Our Teachers</h1>
+      <h2 className='topic'>Our Teachers</h2>
       <div className='container'>
         {teachers.map((teacher, ind) => (
           <TeacherBox teacher={teacher} key={ind} />

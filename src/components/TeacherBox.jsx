@@ -19,7 +19,7 @@ const TeacherBox = ({ teacher }) => {
           background: teacher.background,
         }}
       >
-        <h1>{teacher.name}</h1>
+        <h2>{teacher.name}</h2>
         <p>{teacher.description}</p>
       </div>
     </div>

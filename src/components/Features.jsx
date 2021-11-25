@@ -4,7 +4,7 @@ import '../css/features.css'
 const Features = () => {
   return (
     <article id='features'>
-      <h1 className='topic'>Features</h1>
+      <h2 className='topic'>Features</h2>
       <div className='container'>
         <div className='box'>
           <i className='fas fa-user'></i>

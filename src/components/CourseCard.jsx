@@ -12,7 +12,7 @@ const CourseCard = ({ setCurrentCourse, course }) => {
     <div className='course-card'>
       <img src={require(`../images/${course.banner}`).default} alt='' />
       <div className='card-body'>
-        <h1>{course.name}</h1>
+        <h2>{course.name}</h2>
         <p>{course.description}</p>
         <button onClick={() => changeCourse()}>
           Learn more <i className='fa-solid fa-right-long'></i>

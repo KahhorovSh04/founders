@@ -77,7 +77,7 @@ const Courses = ({ setCurrentCourse }) => {
   }
   return (
     <article id='courses'>
-      <h1 className='topic'>Our Courses</h1>
+      <h2 className='topic'>Our Courses</h2>
       <div className='container'>
         {courses.map(
           (course, ind) =>

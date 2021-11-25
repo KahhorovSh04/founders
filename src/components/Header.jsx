@@ -6,8 +6,8 @@ const Header = () => {
   return (
     <header>
       <div>
-        <h1>O‘rganish uchun orzu emas harakat qiling!</h1>
-        <h2>Hozir maqsad qiling, hozir harakat qiling!</h2>
+        <h2>O‘rganish uchun orzu emas harakat qiling!</h2>
+        <h3>Hozir maqsad qiling, hozir harakat qiling!</h3>
       </div>
       <img src={banner} alt='' />
     </header>
