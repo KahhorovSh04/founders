@@ -82,3 +82,9 @@ nav a:nth-child(2)::before {
 nav a:last-child::before {
   background: #a259ff;
 }
+
+@media only screen and (max-width: 1024px) {
+  html {
+    font-size: 12px;
+  }
+}

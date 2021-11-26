@@ -55,51 +55,55 @@ const courses = [
 
 const Courses = ({ setCurrentCourse }) => {
   const handleClick = (e) => {
-    const contain = document.getElementsByClassName('container')[1]
     const btn = e.target
-    const icon = btn.getElementsByTagName('i')[0]
-    if (contain.style.height === '100%') {
-      contain.style.height = '0'
-      contain.style.opacity = '0'
-    } else {
-      contain.style.height = '100%'
-      contain.style.opacity = '1'
-    }
+    let icon = btn.getElementsByTagName('i')[0]
+    const extras = document.querySelectorAll('.extra')
+    console.log(extras[0].scrollHeight)
+
+    extras.forEach((extra) => {
+      if (extra.style.maxHeight) {
+        extra.style.maxHeight = null
+        extra.style.border = null
+      } else {
+        extra.style.maxHeight = extra.scrollHeight + 'px'
+        extra.style.border = '3px solid #000'
+      }
+    })
     icon.classList.toggle('fa-chevron-down')
     icon.classList.toggle('fa-chevron-up')
-    if (btn.style.top === 'unset') {
-      btn.style.top = '0'
-      btn.style.bottom = 'unset'
+
+    const content = btn.innerHTML.split(' ')
+    icon =
+      content[content.length - 3] +
+      ' ' +
+      content[content.length - 2] +
+      ' ' +
+      content[content.length - 1]
+    if (content[0] === 'See') {
+      btn.innerHTML = `Collapse ${icon}`
     } else {
-      btn.style.top = 'unset'
-      btn.style.bottom = '0'
+      btn.innerHTML = `See all courses ${icon}`
     }
   }
   return (
     <article id='courses'>
       <h2 className='topic'>Our Courses</h2>
       <div className='container'>
-        {courses.map(
-          (course, ind) =>
-            ind <= 2 && (
-              <CourseCard
-                setCurrentCourse={setCurrentCourse}
-                course={course}
-                key={ind}
-              />
-            )
-        )}
-      </div>
-      <div className='container disable'>
-        {courses.map(
-          (course, ind) =>
-            ind > 2 && (
-              <CourseCard
-                setCurrentCourse={setCurrentCourse}
-                course={course}
-                key={ind}
-              />
-            )
+        {courses.map((course, ind) =>
+          ind <= 2 ? (
+            <CourseCard
+              setCurrentCourse={setCurrentCourse}
+              course={course}
+              key={ind}
+            />
+          ) : (
+            <CourseCard
+              setCurrentCourse={setCurrentCourse}
+              course={course}
+              key={ind}
+              className='extra'
+            />
+          )
         )}
       </div>
       <button className='switch-all' onClick={(e) => handleClick(e)}>

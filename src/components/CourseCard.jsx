@@ -1,6 +1,6 @@
 import React from 'react'
 
-const CourseCard = ({ setCurrentCourse, course }) => {
+const CourseCard = ({ setCurrentCourse, course, className }) => {
   const changeCourse = () => {
     const modal = document.querySelector('#modal')
     setCurrentCourse(course)
@@ -9,7 +9,7 @@ const CourseCard = ({ setCurrentCourse, course }) => {
   }
 
   return (
-    <div className='course-card'>
+    <div className={className ? `course-card ${className}` : 'course-card'}>
       <img src={require(`../images/${course.banner}`).default} alt='' />
       <div className='card-body'>
         <h2>{course.name}</h2>
