@@ -16,9 +16,12 @@ const Contacts = () => {
           title='Google Maps'
         ></iframe>
         <div className='links'>
-          <a href='/'>
-            <i className='fa-solid fa-location-dot'></i> Milliy Bog’ metrosi,
-            Oliy Majlis qarshisida
+          <a href='/' className='location'>
+            <i className='fa-solid fa-location-dot'></i>{' '}
+            <span>
+              Milliy Bog Station, opposite of Legislative Chamber of the Supreme
+              Assembly
+            </span>
           </a>
           <div className='tels'>
             <i className='fa-solid fa-phone'></i>

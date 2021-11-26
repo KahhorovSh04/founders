@@ -9,19 +9,20 @@ const Features = () => {
         <div className='box'>
           <i className='fas fa-user'></i>
           <p>
-            O'quvchilarni imtihonlarga tayyorlash bo'yicha zamonaviy
-            dunyo-qarashga ega ustozlar
+            Donec accumsan arcu magna, nec lobortis leo lobortis vel. Vivamus
+            quis scelerisque libero.
           </p>
         </div>
         <div className='box'>
           <i className='fa-solid fa-graduation-cap'></i>
-          <p>Academic Support - ikkinchi o'qituvchi xizmati.</p>
+          <p>
+            Vestibulum ante ipsum primis in faucibus orci luctus et ultrices
+            posuere cubilia curae.
+          </p>
         </div>
         <div className='box'>
           <i className='fas fa-users'></i>
-          <p>
-            Darsdan tashqari qo'shimcha dars tayyorlash uchun co-working joylar
-          </p>
+          <p>Curabitur ut orci ut dolor condimentum finibus vel sed purus.</p>
         </div>
       </div>
     </article>
