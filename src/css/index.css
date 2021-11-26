@@ -22,6 +22,7 @@ button {
 
 body {
   font-family: 'Josefin Sans', 'Roboto', sans-serif;
+  min-width: 1200px;
 }
 
 h2.topic {
