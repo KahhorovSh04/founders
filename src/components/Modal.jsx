@@ -22,6 +22,7 @@ const Modal = ({ currentCourse }) => {
             <h1>{currentCourse.name}</h1>
             <p>Duration: {currentCourse.duration}</p>
             <p>Requiry level: {currentCourse.requirement}</p>
+            <p>Price: {currentCourse.price} sum/month</p>
             <p>Description: {currentCourse.description}</p>
             <p>Enroll:</p>
             <div className='tels'>

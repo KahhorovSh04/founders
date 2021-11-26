@@ -10,6 +10,7 @@ const courses = [
     banner: 'general-english.png',
     duration: '3 months',
     requirement: 'Elementary',
+    price: '400 000',
   },
   {
     name: 'IELTS speed-up',
@@ -17,7 +18,8 @@ const courses = [
       'Fusce auctor magna quis dolor sodales porttitor. Quisque a pellentesque ex.',
     banner: 'speed-up.png',
     duration: '2 months',
-    requirement: 'Elementary',
+    requirement: 'Pre-intermediate',
+    price: '450 000',
   },
   {
     name: 'IELTS 7+',
@@ -25,7 +27,8 @@ const courses = [
       'Aliquam erat volutpat. Nullam molestie magna interdum mattis posuere. Ut porttitor pellentesque elit eget auctor.',
     banner: '7+.png',
     duration: '3 months',
-    requirement: 'Pre-intermediate',
+    requirement: 'Intermediate',
+    price: '600 000',
   },
   {
     name: 'General English',
