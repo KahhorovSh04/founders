@@ -9,7 +9,7 @@ const Contacts = () => {
         <iframe
           src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2997.2289769212975!2d69.235748!3d41.3038821!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38ae8ba966c0cdbf%3A0xe69be7522d8208da!2sMilliy%20Bog!5e0!3m2!1sen!2s!4v1637792209114!5m2!1sen!2s'
           width='60%'
-          // height='450'
+          min-height='100%'
           style={{ border: '0' }}
           allowFullScreen=''
           loading='lazy'
@@ -37,6 +37,10 @@ const Contacts = () => {
           <a href='https://instagram.com/founders.school.uz'>
             <i className='fa-brands fa-instagram'></i>
             instagram.com/founders.school.uz
+          </a>
+          <a href='https://www.facebook.com/Foundersschooluz-109181231588117'>
+            <i className='fa-brands fa-facebook'></i>
+            Foundersschooluz
           </a>
         </div>
       </div>

@@ -31,6 +31,14 @@ const courses = [
     price: '600 000',
   },
   {
+    name: 'IELTS 7+',
+    description:
+      'Aliquam erat volutpat. Nullam molestie magna interdum mattis posuere. Ut porttitor pellentesque elit eget auctor.',
+    banner: '7+.png',
+    duration: '3 months',
+    requirement: 'Pre-intermediate',
+  },
+  {
     name: 'General English',
     description:
       'Lorem ipsum dolor sit amet, cons ectetur adipiscing elit. Phasellus molestie enim.',
@@ -45,14 +53,6 @@ const courses = [
     banner: 'speed-up.png',
     duration: '2 months',
     requirement: 'Elementary',
-  },
-  {
-    name: 'IELTS 7+',
-    description:
-      'Aliquam erat volutpat. Nullam molestie magna interdum mattis posuere. Ut porttitor pellentesque elit eget auctor.',
-    banner: '7+.png',
-    duration: '3 months',
-    requirement: 'Pre-intermediate',
   },
 ]
 
