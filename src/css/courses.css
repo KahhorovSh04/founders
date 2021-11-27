@@ -101,9 +101,10 @@
   transition: all 0.3s ease-in-out;
   border: none;
 }
-
+/*
 @media screen and (max-width: 1024px) {
   .course-card {
     width: 45%;
   }
 }
+*/
